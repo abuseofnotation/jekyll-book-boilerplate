@@ -10,7 +10,7 @@
     <body>
       <div class="header">
         <div class="container">
-          <h1><a href="{{baseurl}}">{{site.name}}</a></h1>
+          <h1><a href="{{site.baseurl}}/">{{site.name}}</a></h1>
           <h3>{{site.description}}</h3>
         </div>
       </div>
@@ -28,13 +28,18 @@
       </div>
       <div class="footer">
         <div class="container">
-          <h1>Contents</h1>
-          {% for chapter in site.chapters %}
-            <p><a href="{{chapter.url  | prepend:site.baseurl}}">{{chapter.title}}</a></p>
-          {% endfor %}
-          <h1>Download</h1>
-          <p><a href="{{site.baseurl}}/book.epub">as epub</a></p>
-          <p><a href="{{site.baseurl}}/book.txt">as txt</a></p>
+            <h1>Contents</h1>
+            {% for chapter in site.chapters %}
+              <p><a href="{{chapter.url  | prepend:site.baseurl}}">{{chapter.title}}</a></p>
+            {% endfor %}
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+            <h1>Download</h1>
+            <p><a href="{{site.baseurl}}/book.epub">as epub</a></p>
+            <p><a href="{{site.baseurl}}/book.txt">as txt</a></p>
+          </div>
         </div>
       </div>
     </body>

@@ -1,3 +1,0 @@
-gotino
-pandoc
-epub

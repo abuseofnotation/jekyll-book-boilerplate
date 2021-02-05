@@ -2,6 +2,7 @@ body {
   line-height: 1.5;
   margin: 0;
   font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
 }
 
 .header {
@@ -13,14 +14,13 @@ body {
 .container {
   max-width: 1000px;
   margin: auto;
-  padding: 10px;
+  padding: 2%;
 }
 
 .footer {
   color:white;
   background-color: black;
   width: 100%;
-  padding: 10%:
 }
 .header a {
   color: white;
@@ -29,17 +29,13 @@ body {
   color: white;
 }
 
-
-pre {
-  background-color: black;
-  color:#fff;
-  padding: 7px 7px 7px 10px;
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
-  font-family: 'Source Code Pro', monospace;
-  white-space: pre-wrap;
-}
 code {
   font-size: 17px; 
   font-family: sans-serif
+}
+
+blockquote {
+  border-left: 4px dotted #666;
+  padding: 0 10px;
+  color: #666;
 }
