@@ -24,8 +24,8 @@ Creating your book's website (in Github)
 2. Create a new repository from the boilerplate by following the link https://github.com/boris-marinov/jekyll-book-boilerplate/generate
 3. Fill out the "Repository Name" field and click "Create" - you repository should be up on "https://github.com/<your_username>/<your_book_title>".
 4. Enable Github pages
-    1 Go to the profile of your repository "https://github.com/<your_username>/<your_book_title>", and click "Settings".
-    2 Scroll down to the "Github pages" and under the "Source" dropdown, select "main" - you book should be up on "https://<your_username>.github.io/<your_book_title>".
+    1. Go to the profile of your repository "https://github.com/<your_username>/<your_book_title>", and click "Settings".
+    2. Scroll down to the "Github pages" and under the "Source" dropdown, select "main" - you book should be up on "https://<your_username>.github.io/<your_book_title>".
 
 Editing the chapters
 ===
