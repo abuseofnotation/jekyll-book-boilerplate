@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+rm -rf _chapters_temp #clear out previous versions of the book
+cp -rf _chapters _chapters_temp
+sed -i '1,4d' _chapters_temp/* # Remove Jekyll headers from pages
+cat _chapters_temp/*.md > book.txt # Place all chapters in one txt file
+pandoc title.txt book.txt -o book.epub # convert to epub
+pandoc title.txt book.txt -o book.docx   # convert to docx
+rm -rf _chapters_temp # remove temp files 

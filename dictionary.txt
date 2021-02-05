@@ -1,0 +1,3 @@
+gotino
+pandoc
+epub
