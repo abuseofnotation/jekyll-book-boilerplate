@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'source';
+    src: url('source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source-light';
+    src: url('source-sans-pro/SourceSansPro-ExtraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: 'source';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'source-light';
+}

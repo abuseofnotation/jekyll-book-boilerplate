@@ -22,6 +22,7 @@ body {
   background-color: gray;
   width: 100%;
   font-size: 40px;
+  border-bottom: 3px dotted white;
 }
 .header a {
   color: white;
