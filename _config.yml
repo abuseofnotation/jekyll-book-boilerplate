@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: My awesome book
+title: My awesome book
 
 # Short bio or description (displayed in the header)
 description: This is a book I wrote, using the Jekyll Book Boilerplate
@@ -40,7 +40,7 @@ permalink: /:title/
 version: v1.1.0
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed
 

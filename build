@@ -1,0 +1,11 @@
+pandoc --from markdown --to epub3  --strip-comments \
+ epub/title.txt \
+ _chapters/*.md \
+ --output book.epub \
+ --toc \
+ --epub-cover-image=epub/cover_print.png \
+ --resource-path=_chapters/02_category \
+ --css=epub/epub-style.css
+# --verbose
+
+start book.epub

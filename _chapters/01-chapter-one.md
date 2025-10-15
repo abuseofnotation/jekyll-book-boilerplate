@@ -3,6 +3,9 @@ layout: default
 title: Chapter One
 ---
 
+Chapter One
+===
+
 This is chapter one.
 
 <!--more-->

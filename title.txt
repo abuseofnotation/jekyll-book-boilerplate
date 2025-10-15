@@ -1,5 +1,0 @@
----
-title: My awesome book
-author: Boris Marinov
-language: en-US
-...
