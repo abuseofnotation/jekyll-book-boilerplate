@@ -8,7 +8,7 @@ Features:
 - Buttons for previous and next chapter
 - Also, scripts for spellchecking the book and for converting it in various formats.
 
-[See sample](https://boris-marinov.github.io/jekyll-book-boilerplate/)
+[See sample](https://abuseofnotation.github.io/jekyll-book-boilerplate/)
 ===
 
 How to use
@@ -40,9 +40,9 @@ Converting the book to epub
 
 1. Install [Pandoc](https://pandoc.org/).
 2. Edit the `/title.txt` file 
-3. Start the `convert` script. Under MacOS, it would work if you install GNU sed, instead of the `sed` that comes with the OS. 
+3. Start the `build` script. 
 
-There are links for downloading the epub and the txt files at the website footer 
+There are links for downloading the epub file at the website footer.
 
 Spellchecking
 ===
