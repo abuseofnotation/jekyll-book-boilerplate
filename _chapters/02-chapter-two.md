@@ -2,9 +2,6 @@
 layout: default
 title: Chapter Two
 ---
-Chapter Two
-===
-
 
 This is chapter Two.
 
