@@ -119,6 +119,9 @@ img {
   .footer {
     display: none;
   }
+  .prev-next {
+    display: none;
+  }
 }
 @font-face {
     font-family: 'source';
